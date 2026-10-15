@@ -5,8 +5,11 @@ Ingests PDF manuals (text + diagrams), embeds with Gemini, stores vectors in Qdr
 and answers troubleshooting questions grounded in the retrieved manual pages.
 
 ## Status
-Work in progress — ingestion pipeline (PDF text + image extraction, chunking) done.
-Next: Gemini embeddings, Qdrant storage, retrieval, and the RAG answer generation + API.
+Work in progress.
+- [x] Ingestion pipeline (PDF text + image extraction, chunking)
+- [x] Gemini embeddings + Qdrant vector storage (`python -m app.ingest <pdf_path>`)
+- [ ] Retrieval + RAG answer generation
+- [ ] FastAPI backend + frontend
 
 ## Stack
 - FastAPI backend
