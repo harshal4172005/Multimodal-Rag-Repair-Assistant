@@ -9,7 +9,7 @@ Work in progress.
 - [x] Ingestion pipeline (PDF text + image extraction, chunking)
 - [x] Gemini embeddings + Qdrant vector storage (`python -m app.ingest <pdf_path>`)
 - [x] Retrieval + multimodal RAG answer generation (`python -m app.ask "<question>"`)
-- [ ] FastAPI backend + frontend
+- [x] FastAPI backend + chat frontend (`uvicorn app.api.main:app --reload`, then open http://localhost:8000)
 
 ## Stack
 - FastAPI backend
