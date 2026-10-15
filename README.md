@@ -8,7 +8,7 @@ and answers troubleshooting questions grounded in the retrieved manual pages.
 Work in progress.
 - [x] Ingestion pipeline (PDF text + image extraction, chunking)
 - [x] Gemini embeddings + Qdrant vector storage (`python -m app.ingest <pdf_path>`)
-- [ ] Retrieval + RAG answer generation
+- [x] Retrieval + multimodal RAG answer generation (`python -m app.ask "<question>"`)
 - [ ] FastAPI backend + frontend
 
 ## Stack

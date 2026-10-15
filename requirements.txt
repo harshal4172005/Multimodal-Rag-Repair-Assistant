@@ -5,3 +5,4 @@ qdrant-client==1.11.3
 pymupdf==1.24.10
 python-dotenv==1.0.1
 pydantic==2.9.2
+Pillow==10.4.0
